@@ -1,0 +1,80 @@
+# ===============================
+# Build outputs
+# ===============================
+bin/
+obj/
+out/
+
+# ===============================
+# .NET Core
+# ===============================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.deps.json
+*.runtimeconfig.json
+
+# ===============================
+# User-specific files
+# ===============================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===============================
+# Visual Studio / VS Code
+# ===============================
+.vscode/
+.vs/
+.idea/
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Rider / Resharper
+# ===============================
+_ReSharper*/
+*.DotSettings.user
+
+# ===============================
+# NuGet
+# ===============================
+*.nupkg
+packages/
+.nuget/
+
+# ===============================
+# EF Core
+# ===============================
+**/Migrations/*.Designer.cs
+**/Migrations/*.cs
+!**/Migrations/InitialCreate.cs   # (optional – remove if you want ignore all)
+
+# ===============================
+# App settings (Secrets)
+# ===============================
+appsettings.Development.json
+appsettings.json
+
+# ===============================
+# Docker
+# ===============================
+docker-compose.override.yml
+
+# ===============================
+# Publish
+# ===============================
+publish/
