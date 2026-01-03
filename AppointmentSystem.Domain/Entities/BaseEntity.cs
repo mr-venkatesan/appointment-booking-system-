@@ -4,6 +4,9 @@ public abstract class BaseEntity
 {
     [Column("id")]
     public Guid Id { get; protected set; }
+
+    [Column("is_active")]
+    public bool? IsActive { get; protected set; }
     
     [Column("created_by")]
     public string CreatedBy { get; protected set; } = string.Empty;

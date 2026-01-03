@@ -1,5 +1,5 @@
-using AppointmentSystem.Infrastructure.Configurations;
 using AppointmentSystem.Application.Services;
+using AppointmentSystem.Infrastructure.Configurations.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 

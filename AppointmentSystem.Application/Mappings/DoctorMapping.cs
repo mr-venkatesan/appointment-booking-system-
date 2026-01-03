@@ -1,7 +1,7 @@
 using AppointmentSystem.Application.DTOs.Doctor;
-using AppointmentSystem.Domain.Entities;
+using AppointmentSystem.Domain.Entities.Doctor;
 
-namespace AppointmentSystem.Application.Mappings;
+namespace AppointmentSystem.Application.Mappings.Doctors;
 
 public static class DoctorMapping
 {

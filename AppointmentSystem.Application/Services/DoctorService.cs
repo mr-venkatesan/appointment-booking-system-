@@ -1,7 +1,6 @@
 using AppointmentSystem.Application.DTOs.Doctor;
-using AppointmentSystem.Application.Interfaces;
-using AppointmentSystem.Domain.Entities;
-using AppointmentSystem.Application.Mappings;
+using AppointmentSystem.Application.Interfaces.Doctors;
+using AppointmentSystem.Application.Mappings.Doctors;
 
 namespace AppointmentSystem.Application.Services;
 

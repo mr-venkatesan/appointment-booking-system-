@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AppointmentSystem.Domain.Entities;
+namespace AppointmentSystem.Domain.Entities.Doctor;
 
 [Table("doctors", Schema = "public")]
 public class Doctor : BaseEntity

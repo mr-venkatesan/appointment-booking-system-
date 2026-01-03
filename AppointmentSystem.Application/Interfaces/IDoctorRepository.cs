@@ -1,6 +1,6 @@
-using AppointmentSystem.Domain.Entities;
+using AppointmentSystem.Domain.Entities.Doctor;
 
-namespace AppointmentSystem.Application.Interfaces;
+namespace AppointmentSystem.Application.Interfaces.Doctors;
 
 public interface IDoctorRepository
 {

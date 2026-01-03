@@ -1,11 +1,11 @@
-using AppointmentSystem.Application.Interfaces;
+using AppointmentSystem.Application.Interfaces.Doctors;
 using AppointmentSystem.Infrastructure.Persistence;
-using AppointmentSystem.Infrastructure.Repositories;
+using AppointmentSystem.Infrastructure.Repositories.Doctors;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AppointmentSystem.Infrastructure.Configurations;
+namespace AppointmentSystem.Infrastructure.Configurations.DependencyInjection;
 
 public static class DependencyInjection
 {

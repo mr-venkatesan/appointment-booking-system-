@@ -1,10 +1,10 @@
-using AppointmentSystem.Application.Interfaces;
-using AppointmentSystem.Domain.Entities;
+using AppointmentSystem.Application.Interfaces.Doctors;
+using AppointmentSystem.Domain.Entities.Doctor;
 using AppointmentSystem.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace AppointmentSystem.Infrastructure.Repositories;
+namespace AppointmentSystem.Infrastructure.Repositories.Doctors;
 
 public class DoctorRepository : IDoctorRepository
 {
