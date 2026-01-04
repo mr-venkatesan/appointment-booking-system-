@@ -22,7 +22,7 @@ public class UserService
         if (user == null) return null;
         return user.ToDto();
     }
-    public async Task<UserResponseDto?> GetByIdAsync(String email)
+    public async Task<UserResponseDto?> GetUserAsync(String email)
     {
         var user = await _repository.GetUserAsync(email);
         if (user == null) return null;
